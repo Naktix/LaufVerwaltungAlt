@@ -1,0 +1,74 @@
+/* Modernes Layout für die Anwendung */
+.root {
+    -fx-font-family: "Arial";
+    font-family: "Arial"; /* Standard-Eigenschaft */
+    -fx-background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Standard-Eigenschaft */
+}
+
+.label {
+    -fx-font-size: 14px;
+    font-size: 14px; /* Standard-Eigenschaft */
+    -fx-font-weight: bold;
+    font-weight: bold; /* Standard-Eigenschaft */
+    -fx-text-fill: #333333;
+}
+
+.button {
+    -fx-background-color: #4CAF50; /* Grün */
+    background-color: #4CAF50; /* Standard-Eigenschaft */
+    -fx-text-fill: white;
+    color: white; /* Standard-Eigenschaft */
+    -fx-font-weight: bold;
+    font-weight: bold; /* Standard-Eigenschaft */
+    -fx-padding: 10px 20px;
+    padding: 10px 20px; /* Standard-Eigenschaft */
+    -fx-border-radius: 5px;
+    border-radius: 5px; /* Standard-Eigenschaft */
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+    background-color: #45a049; /* Standard-Eigenschaft */
+}
+
+.text-field {
+    -fx-border-color: #4CAF50;
+    border-color: #4CAF50; /* Standard-Eigenschaft */
+    -fx-border-width: 2px;
+    border-width: 2px; /* Standard-Eigenschaft */
+    -fx-padding: 5px;
+    padding: 5px; /* Standard-Eigenschaft */
+    -fx-border-radius: 5px;
+    border-radius: 5px; /* Standard-Eigenschaft */
+    -fx-background-radius: 5px;
+}
+
+.hbox {
+    -fx-spacing: 10px;
+    -fx-padding: 20px;
+    padding: 20px; /* Standard-Eigenschaft */
+    -fx-alignment: center;
+}
+
+.grid-pane {
+    -fx-padding: 20px;
+    padding: 20px; /* Standard-Eigenschaft */
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-background-color: white;
+    background-color: white; /* Standard-Eigenschaft */
+    -fx-border-color: #cccccc;
+    border-color: #cccccc; /* Standard-Eigenschaft */
+    -fx-border-width: 2px;
+    border-width: 2px; /* Standard-Eigenschaft */
+    -fx-border-radius: 10px;
+    border-radius: 10px; /* Standard-Eigenschaft */
+    -fx-background-radius: 10px;
+}
+
+.scene {
+    -fx-padding: 20px;
+    padding: 20px; /* Standard-Eigenschaft */
+}
